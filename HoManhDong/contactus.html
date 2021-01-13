@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="assets/css/contactus.css">
+</head>
+<body>
+
+<h2>Responsive Contact Section</h2>
+<br>
+<p>Resize the browser window to see the effect.</p>
+
+<div class="container">
+  <div style="text-align:center">
+    <h2>Liên hệ</h2>
+   <br>
+    <p>Hãy liên hệ với chúng tôi</p>
+  </div>
+  <div class="row">
+    <div class="column">
+      <img src="assets/images/dai-hoc-lac-hong.jpg" style="width:100%">
+    </div>
+    <div class="column">
+      <form action="/action_page.php">
+        <label for="fname">Họ và tên</label>
+        <input type="text" id="fname" name="firstname" placeholder="Nhập họ và tên..">
+        <label for="lname">Số điện thoại</label>
+        <input type="text" id="lname" name="lastname" placeholder="Nhập số điện thoại..">
+        <label for="country">Country</label>
+        <select id="country" name="country">
+          <option value="australia">Australia</option>
+          <option value="canada">Canada</option>
+          <option value="usa">USA</option>
+        </select>
+        <label for="subject">Nhập nội dung</label>
+        <textarea id="subject" name="subject" placeholder="Write something.." style="height:170px"></textarea>
+        <input type="submit" value="Gửi">
+      </form>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
